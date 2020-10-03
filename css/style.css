@@ -48,4 +48,58 @@ header nav ul li a{
 	color: #fff;
 }
 
+/*Style coffee*/
 
+#coffee h1{
+	font-size: 200%;
+	font-weight: bold;
+	padding: 1em;
+	text-align: center;
+}
+
+#coffee h5{
+	font-size: 120%;
+	font-weight: bold;
+	padding: 1em;
+	text-align: center;
+}
+
+#coffee h6{
+	font-size: 120%;
+	font-weight: bold;
+	padding: 0.5em;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	transition: ease-in-out .3s;
+}
+
+#coffee .row{
+	width: 100%;
+	display: flex;
+}
+
+#coffee .column{
+	width: 25%;
+	margin: 0.5em;
+	transition: ease-in-out .3s;
+}
+
+#coffee .column:hover{
+	background: #a38068;
+	border-radius: 1em;
+}
+
+#coffee .column:hover h6 {
+	color: #fff;
+}
+
+#coffee .column:hover img {
+	border-radius: 1em 1em 0em 0em;
+}
+
+#coffee .column img{
+	width: 100%;
+	border-radius: 1em;
+	transition: ease-in-out .3s;
+}
