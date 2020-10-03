@@ -1,0 +1,21 @@
+/*Faculdade de Tecnologia de Ribeirão Preto*/
+/*Centro Paula Souza*/
+/*Programação WEB*/
+/*Prof. Dr. Ricardo Luis Balieiro*/
+/*Docente: Pedro Welbert da Silva Pereira*/
+
+@font-face {
+  font-family: Oswald;
+  src: url("assets/fonts/Oswald.ttf");
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Oswald;
+	overflow-x: hidden;
+}
