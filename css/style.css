@@ -6,7 +6,15 @@
 
 @font-face {
   font-family: Oswald;
-  src: url("assets/fonts/Oswald.ttf");
+  src: url("./assets/fonts/Oswald.ttf");
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: Oswald;
 }
 
 html{
@@ -14,8 +22,30 @@ html{
 }
 
 body{
-	padding: 0;
-	margin: 0;
-	font-family: Oswald;
 	overflow-x: hidden;
 }
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	padding: 1em;
+	width: 50%;
+	font-family: Oswald;
+	font-weight: bold;
+	font-size: 100%;
+	text-align: center;
+	background: #555;
+	transition: ease-in-out .3s;
+}
+
+header nav ul li:hover{
+	background: #999;
+}
+
+header nav ul li a{
+	color: #fff;
+}
+
+
