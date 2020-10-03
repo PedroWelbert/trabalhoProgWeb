@@ -50,6 +50,10 @@ header nav ul li a{
 
 /*Style coffee*/
 
+#coffee {
+	margin: 0 1em 0 1em;
+}
+
 #coffee h1{
 	font-size: 200%;
 	font-weight: bold;
@@ -77,6 +81,7 @@ header nav ul li a{
 #coffee .row{
 	width: 100%;
 	display: flex;
+	justify-content: center;
 }
 
 #coffee .column{
@@ -103,3 +108,36 @@ header nav ul li a{
 	border-radius: 1em;
 	transition: ease-in-out .3s;
 }
+
+/*Style coffee item*/
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.coffee-item{
+	border-bottom: 1px solid #a38068;
+	display: block;
+}
+
+.coffee-description{
+	padding: 1em 0;
+}
+
+.coffee-description h4{
+	font-weight: bold;
+	font-size: 120%;
+	padding: 1em 0;
+}
+
+.cost{
+	padding: 1em 0em 0em 0em !important;
+}
+
+.coffee-description p{
+	font-weight: normal;
+	font-size: 120%;
+}
+
